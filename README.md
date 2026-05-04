@@ -1,6 +1,9 @@
-# Nebula Icon Library 🪐  
-The Ultimate Icon Library For Roblox Interfaces.  
+# rbx-icons
+a fork of nebula icon library but it's easy to use and organise!
 
-![Image](https://github.com/Nebula-Softworks/Nebula-Icon-Library/blob/master/Nebula%20Icons%20Cover%20Image.png?raw=true)
+```lua
+local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/justirib/rbx-icons/refs/heads/master/library.lua"))()
 
-## [Documentation](https://docs.nebulasoftworks.xyz/nebula-icons)
+--example
+-- local icons:settings = module:get_icon("settings", "Lucide")
+```
